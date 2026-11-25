@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form
+</h1>
+<p id="description">Thank you for taking the time to help us improve the platform
+</p>
+
+<form id="survey-form">
+  <label id="name-label">name</label>
+  <input id="name" name="name" type="text" required placeholder="dream journey" />
+
+  <label id="email-label">email</label>
+  <input id="email" name="email" type="email" required placeholder="dreamy@trancen.co" />
+  <label id="number-label">number</label>
+  <input id="number" name="number" type="number"   required min="4" max="50" placeholder="10" />
+
+  <p>Which option best describes your current role?
+
+</p>
+
+  <select id="dropdown">
+    <option>student</option>
+    <option>teacher</option>
+    <option>worker</option>
+  </select>
+
+  <p>Would you recommend freeCodeCamp to a friend?
+
+</p>
+
+  <input type="radio" name="sure" value="choice" />
+  <label >sure</label>
+  <input type="radio" name="sure" value="choice"/>
+  <label>later</label>
+
+<p>What is your favorite feature of freeCodeCamp?
+</p>
+
+<input type="checkbox" value="project"/>
+<label>Project</label>
+
+<input type="checkbox" value="open_source"/>
+<label>open source</label>
+
+
+<p>Any comments or suggestions?
+</p>
+
+<textarea type="textarea" placeholder="enter your comment here...."></textarea>
+
+<button id="submit" type="submit">submit</button>
+
+</form>
+
+
+
+
+  </body>
+</html>
